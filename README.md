@@ -1,4 +1,4 @@
-dotfiles
+Shanison's dot files
 ========
 
-my dot files
+Copy the dot files to the corresponding directories.
