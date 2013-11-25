@@ -1,0 +1,19 @@
+" Use rails casts theme
+Bundle 'vim-scripts/Railscasts-Theme-GUIand256color'
+colorscheme railscasts
+
+" Map the NERDTreeToggle
+map <leader>n :NERDTreeToggle<CR>:NERDTreeMirror<CR>
+
+" map some CtrlP keys
+let g:ctrlp_map = '<leader>p'
+
+" UnBundle the numbers plugin as I don't need relative numbers
+UnBundle 'myusuf3/numbers.vim'
+
+" Set the tab spacing to two space
+set softtabstop=2
+set shiftwidth=2
+set tabstop=2
+set expandtab
+
